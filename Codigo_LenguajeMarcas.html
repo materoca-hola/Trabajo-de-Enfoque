@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bambola</title> 
+<link rel="stylesheet" href="css/Misestilos.css">
+</head> 
+<body>
+<header>
+    <h1>Restaurante Italiano Bambola</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li> 
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#productos">Productos</a></li>       
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#trabaja">Trabaja con Nosotros</a></li>
+        </ul>
+    </nav>
+</header>       
+
+<aside>
+    <p>Horario de Atención: Lunes a Domingo de 12:00 a 22:00</p>
+    <p>Dirección: Calle 123, Granada, España</p>
+</aside>
+
+<section id="inicio">
+    <h2>¡Bienvenidos a nuestro Restaurante!</h2>
+    <p>Disfruta de la mejor comida italiana en nuestro restaurante. Contamos con una amplia variedad de platos y bebidas para que disfrutes de una experiencia inolvidable. ¡Ven a visitarnos!</p>
+    <figure>
+        <img src="Imagenes/Comensales.jpg" alt="Pasta italiana">
+    </figure>
+</section>
+
+<section id="quienes-somos">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos un restaurante italiano con más de 10 años de experiencia en el sector. Nuestro objetivo es ofrecer a nuestros clientes la mejor comida italiana, elaborada con ingredientes de calidad y siguiendo las recetas tradicionales de la cocina italiana.
+        Lorem ipsum dolor sit amet. 
+        Vel libero labore qui delectus laudantium ut consequuntur facere et sapiente voluptatem ea internos odit! Qui quibusdam autem sit magni praesentium At consequatur distinctio et quaerat illum et internos officiis est eveniet
+        autem 33 earum delectus.
+        Ut sint magni sit galisum voluptatibus sed obcaecati voluptatibus. Et earum galisum At delectus fugit nam rerum consequatur et mollitia rerum eum ipsam alias non asperiores dicta in autem voluptatem. Et repellendus dolor eos quas itaque et quia earum 
+        sit suscipit neque ad deleniti Quis ut galisum enim vel voluptatem laborum. Non veritatis enim aut deserunt aspernatur est provident corporis qui error explicabo.
+        Non nesciunt blanditiis aut omnis dolore hic dolorem soluta et commodi beatae nam pariatur voluptates? Hic quis placeat qui fugit sint sed reprehenderit quidem ea autem veritatis.</p>
+</section>
+    <div class="galeria">
+        <img src="Imagenes/Burrata.jpg" alt="Burrata">
+        <img src="Imagenes/haciendopasta.jpg" alt="Haciendo pasta">
+        <br>
+        <p class="descripcion">Nuestros platos son elaborados con ingredientes frescos y de calidad.</p>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbro8IQY12w" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <h3 style="text-align:center;">Nuestro Talento Humano</h3>
+    </div>
+        <div class="talento-humano" style="display: flex; justify-content: center; gap: 20px;">
+        <figure style="text-align: center; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
+            <img src="Imagenes/Chef_Hombre.jpg" alt="Chef principal" style="width: 200px; height: auto; border-radius: 10px;">
+            <figcaption>Juan Pérez - Chef principal con 15 años de experiencia en cocina italiana.</figcaption>
+        </figure>
+        <figure style="text-align: center; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
+            <img src="Imagenes/Chef_mujer.png" alt="Sous Chef" style="width: 200px; height: auto; border-radius: 10px;">
+            <figcaption>María Gómez - Sous Chef experta en pastas artesanales.</figcaption>
+        </figure>
+        <figure style="text-align: center; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
+            <img src="Imagenes/Sommelier.png" alt="Sommelier" style="width: 200px; height: auto; border-radius: 10px;">
+            <figcaption>Carlos López - Sommelier con especialidad en vinos italianos.</figcaption>
+            </figure>
+        </div>
+       
+
+
+<section id="productos">
+   <h2>Productos</h2>
+        <table>
+        <tr>
+            <th>Plato</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Pizza Margarita</td>
+            <td>Deliciosa pizza con tomate, mozzarella y albahaca</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Pasta Carbonara</td>
+            <td>Exquisita pasta con salsa de huevo, queso, panceta y pimienta negra</td>
+            <td>$12</td>
+        </tr>
+        <tr>
+            <td>Tiramisú</td>
+            <td>Postre italiano a base de café, queso mascarpone y bizcochos</td>
+            <td>$5</td>
+        </tr>
+    </table>
+</section>
+<br>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si deseas hacer una reserva o tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
+    <form action="enviar.php" method="post">
+                
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+<br>
+<section id="trabaja">
+    <br>
+    <br>
+    <h2>Trabaja con Nosotros</h2>
+    <form>
+        <fieldset>
+                    
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellidoa">Apellidos:</label>
+            <input type="text" id="apellidoa" name="apellidoa" required>
+            <label for="DNI">DNI:</label>
+            <input type="text" id="DNI" name="DNI" required>
+            <label for="Sexo">Sexo:</label>
+            <input type="text" id="Sexo" name="Sexo" required>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="Ciudad" required>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required>
+            <label for="codigopostal">Codigo postal:</label>
+            <input type="text" id="codigopostal" name="codigopostal" required>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" required>
+                                           
+        </fieldset>
+        <fieldset>
+        <legend>Formación</legend>
+            <label>Titulación:</label><input type="text" required>
+            <label>Año de inicio:</label><input type="date" required>
+            <label>Año de finalización:</label><input type="date" required>
+             </fieldset>
+        <fieldset>
+             <legend>Idiomas</legend>
+            <label>Idioma:</label><input type="text" required>
+            <label>Hablado:</label>
+            <select><option>Excelente</option><option>Bien</option><option>Regular</option><option>Nada</option></select>
+            <label>Leído:</label>
+            <select><option>Excelente</option><option>Bien</option><option>Regular</option><option>Nada</option></select>
+            <label>Escrito:</label>
+            <select><option>Excelente</option><option>Bien</option><option>Regular</option><option>Nada</option></select>
+        </fieldset>
+            <input type="submit" value="Enviar">
+    </form>
+</section>
+
+
+<footer>
+    <p>Además, puedes visitarnos en nuestra página de Facebook:</p>   
+    <img src="Imagenes/logo_facebook.png " alt="Facebook">
+    <a href=https://www.facebook.com>Facebook</a>
+    
+</footer>
+</body>
+</html>
+
+
+
+
+
